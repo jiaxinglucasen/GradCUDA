@@ -79,4 +79,4 @@ framework that's easy to take for granted.
   was diagnosed and fixed
 
 ## What I learned
-I learned that programming is not just about following instructions or doing the things you're told to do, but about solving problems in unique and creative ways, and untangling bugs and confusing logic along the way.
+The most valuable lesson I gained from this project is that every bug I hit and every error message I received taught me more than any successfully run lines of code. The struggle of understanding why an error occurred and why the results deviated from my expectations is where the real growth happened as an engineer.

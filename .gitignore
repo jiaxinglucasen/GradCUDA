@@ -1,0 +1,6 @@
+*.exe
+*.obj
+*.pyd
+build/
+__pycache__/
+venv/

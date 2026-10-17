@@ -1,3 +1,9 @@
+> **CORRECTION (written later):** Parts of this log are wrong. The GPU accuracy of 11.45% was NOT caused by
+> float32 precision compounding, and the 67.15% CPU accuracy was partly a typo (`W2.data -= lr * b2.grad`).
+> The real cause of the GPU result was a memory-layout mismatch (column-major data read by a row-major kernel),
+> fixed with `np.ascontiguousarray`. After the fixes the CPU and GPU engines both reach 75.40% (2,000 images).
+> See `bugs_fixed.md` for the full story. The original log is kept below unchanged.
+
 # Chunk 7: GPU Benchmarking & Final Results
 
 ## What I built

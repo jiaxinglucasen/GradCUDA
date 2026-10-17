@@ -1,4 +1,4 @@
-Created project folder micrograd-cuda, opened in VS Code
+Created project folder Lucas Personal Project, opened in VS Code
 Installed VS Code extensions: Python, C/C++
 Installed Python 3.13, checked "Add to PATH"
 Installed "Build Tools for Visual Studio" (Desktop development with C++ workload) — needed to compile C++/CUDA on Windows
